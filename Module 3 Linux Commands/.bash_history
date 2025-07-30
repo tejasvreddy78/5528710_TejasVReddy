@@ -461,3 +461,77 @@ ls
 cd new'
 quit
 ls
+history
+whoami
+ls
+clear
+ls
+cd Stepin
+ls
+vi sum.c
+cut -d ':' -f2 sample.txt
+Stepin
+ls
+Stepin
+cat Stepin
+ls -1
+ls -l
+ls
+vi sum.c
+history
+ls
+vi sum.c
+gcc sum.c && ./a.out
+vi filecmd
+cat filecmd
+cat sum.c
+gcc sum.c
+./a.out
+gcc sum.c && ./a.out
+ls
+more filecmd
+nano filecmd
+more filecmd
+less filecmd
+head filecmd
+head -n 5 filecmd
+tail filecmd
+tail +5 filecmd
+nano sample.txt
+cat sample.txt
+cut -c 1-3 sample.txt
+cut -c 4-10 sample.txt
+cat sample.txt
+cut -d':' -f2 sample.txt
+ls
+cat demo
+nano f1
+nano f2
+cat f1
+cat f2
+paste -d ':'f1f2
+ls
+nano employees.txt
+awk 'BEGIN {print "Name:, Salary:"}{print$1, $3}' employees.txt
+awk 'BEGIN {print "Name Salary"}{print$1, $3}' employees.txt
+awk '{total+=$3} ENd {print "Total Salary=", total}; employees.txt
+ls
+awk '{total+=$3} END {print "Total Salary=", total}; employees.txt
+ls
+awk '{print $0}' employees.txt
+awk '{print NR.$1}' employees.txt
+awk '{print NR,$1}' employees.txt
+awk '{print NR,$0}' employees.txt
+awk '/Alice/' employees.txt
+awk '$2 < 30 {print $1, $2}' employees.txt
+awk '{printf "Name: %s, Salary: %d\n", $1, $2}' employees.txt
+awk 'END {print "Total employees=",NR}' employees.txt
+ls -l
+ls -l s1.txt
+chmod u+x s1.txt
+ls -l s1.txt
+chmod o-r s1.txt
+ls -l s1.txt
+chmod 462 s1.txt
+ls -l s1.txt
+history
