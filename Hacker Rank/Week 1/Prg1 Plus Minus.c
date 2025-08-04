@@ -1,0 +1,28 @@
+#include<stdio.h>
+void plusMinus(int arr_count, int* arr){
+    int positive = 0;
+    int negative = 0;
+    int zero = 0;
+    for (int i=0; i < arr_count; i++){
+        if (arr[i] > 0){
+            positive++;
+        } else if (arr[i]<0) {
+            negative++;
+        } else {
+            zero++;
+        }
+    }
+printf("%f\n", (float)positive /arr_count);
+printf("%f\n", (float)negative / arr_count);
+printf("%f\n", (float)zero / arr_count);
+}
+int main(){
+    int n;
+    scanf("%d", &n);
+    int arr[n];
+    for (int i=0; i<n; i++){
+        scanf("%d", &arr[i]);
+    }
+    plusMinus(n, arr);
+    return 0;
+}
